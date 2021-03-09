@@ -1,0 +1,25 @@
+body {
+  background-image: linear-gradient(
+    45deg,
+    rgba(117, 43, 43, 0.5),
+    rgba(75, 216, 10, 0.3)
+  );
+}
+.details-box {
+  width: 70%;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 0.5),
+    rgba(112, 224, 59, 0.3)
+  );
+  box-shadow: 10px 10px 25px gray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+.box-container {
+  background-color: rgba(20, 20, 20, 0.2);
+}
+.details-header {
+  padding-bottom: 50px;
+}
