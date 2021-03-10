@@ -51,8 +51,6 @@ const TeamDetails = () => {
       return female;
     }
   };
-  console.log(image());
-
   return (
     <div className="container box-container">
       <header className="details-header">

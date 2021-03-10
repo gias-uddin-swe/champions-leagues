@@ -11,14 +11,13 @@ const Home = () => {
       .then((res) => res.json())
       .then((data) => setTeam(data.teams));
   }, []);
-  console.log(team);
   return (
     <div className="home-main">
       <div className="home-main-header">
         <Header />
       </div>
       <Container>
-        <Row >
+        <Row>
           {team.map((tm) => (
             <Team team={tm} key={tm.idTeam}></Team>
           ))}

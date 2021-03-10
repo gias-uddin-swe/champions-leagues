@@ -10,7 +10,7 @@ const Team = (props) => {
   return (
     <div className="mt-5 main-card ">
       <Col xs className="col-md-6 col-lg-3 col-sm-12  p-3 ">
-        <Card className="p-3 cards" style={{ width: "18rem" }}>
+        <Card className="p-3 cards " style={{ width: "21rem" }}>
           <Card.Img variant="top" src={strTeamBadge} />
           <Card.Body className="text-center">
             <Card.Title>{strTeam}</Card.Title>
